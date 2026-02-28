@@ -16,7 +16,7 @@ router.get("/",getAllAppointments)
 
 router.get("/:id",getAppointmentById)
 
-router.post("/:id",updateAppointment)
+router.put("/:id",updateAppointment)
 
 router.delete("/:id",deleteAppointment)
 
