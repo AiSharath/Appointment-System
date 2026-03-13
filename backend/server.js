@@ -15,7 +15,6 @@ const app = express();
 // ✅ allow both local dev and production Vercel URL
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://appointment-system-rho.vercel.app",
 ]
 
 app.use(cors({
